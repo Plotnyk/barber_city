@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web_site_jsp:war exploded">
+    <output-path>$PROJECT_DIR$/web_site_jsp/target/web_site_jsp-0.0.1</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web_site_jsp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="model-0.0.1.jar">
+            <element id="module-output" name="model" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/web_site_jsp/target/web_site_jsp-0.0.1/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="web_site_jsp/web/Web" />
+    </root>
+  </artifact>
+</component>
